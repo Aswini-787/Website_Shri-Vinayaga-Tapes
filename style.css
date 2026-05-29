@@ -10,3 +10,57 @@ section{
      min-height: 100vh;
      border: 1px solid black ;
 }
+
+.larger-text
+{
+   font-family:  sans-serif;
+   color: #bbbdbc;;
+   font-size: 30px;;
+}
+
+/* enquiry stuff*/
+#enquiry
+{ 
+   background: #f2f0ef;
+}
+#enquiryForm 
+{
+   
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+.enquiry_frame 
+{
+    max-width: 1000px;
+    margin: 150px auto;
+    padding: 40px;
+    background: #245f73;
+    border-radius: 20px;
+    border:none ;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-color: #245f73;
+   }
+
+input
+{
+   border-radius: 0px;
+   height:30px;
+}
+
+select
+{
+   height:30px;
+   border-color: #245f73;
+}
+.book
+{
+   background-color: #733e24;
+   color: #bbbdbc;
+   width: 100px;
+   height: 25px;
+   border-radius: 50px;
+}
