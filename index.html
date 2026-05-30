@@ -23,27 +23,33 @@
     </section>
 
     <section id="enquiry">
-       <div class="enquiry_frame">
+      <div class ="enquiry_wrapper">
+         <div class="enquiry_frame">
+            <form id="enquiryForm">
 
-      <form id="enquiryForm">
+               <h2 class="larger-text">Enquire Products</h2>
+               <input type="text" id ="name" placeholder="  Enter Your Name" required>
+               <input type="email" id ="email"placeholder="  Enter Email Address" >
+               <input type="tel" id="phone"placeholder="  Enter Phone Number" required>
+               <input type="company" id="company"placeholder="  Enter Company Name" >
+               <select id="mode">
+                 <option>  Products</option>
+                 <option>Plain Tapes</option>
+                 <option>Brown Tapes</option>
+                 <option>Printed Tapes (Customized)</option>
+                 <option>Jumbo roll Tapes</option>
+                 <option>Pigment Tapes</option>
+               </select>
+               <textarea id="message" name = "message" rows="5" col="30" placeholder=" comments"></textarea>
+               <button class = "book">Enquire</button>
 
-      <h2 class="larger-text">Enquire Products</h2>
-      <input type="text" id ="name" placeholder="  Enter Your Name" required>
-      <input type="email" id ="email"placeholder="  Enter Email Address" >
-      <input type="tel" id="phone"placeholder="  Enter Phone Number" required>
-      <select id="mode">
-        <option>  Products</option>
-        <option>Plain Tapes</option>
-        <option>Brown Tapes</option>
-        <option>Printed Tapes (Customized)</option>
-        <option>Jumbo roll Tapes</option>
-        <option>Pigment Tapes</option>
-      </select>
-      <button class = "book">Enquire</button>
-
-      </form>
-
-   </div>
+            </form>
+         </div>
+         
+         <div class="info_frame">
+            <h2 class="larger-text">Info Part</h2>
+         </div>
+      </div>
     </section>
 
     <footer id="contact">
