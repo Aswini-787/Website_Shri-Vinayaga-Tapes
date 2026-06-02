@@ -103,3 +103,40 @@ textarea{
     padding: 30px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
+
+/* contact part of enquiry */
+.instagram{
+   width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+/* whatsapp widget */
+.whatsapp-widget{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    background: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    text-decoration: none;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+    z-index: 9999;
+}
+
+.whatsapp-widget:hover{
+    transform: scale(1.1);
+}
