@@ -1,4 +1,4 @@
-/*EmailJS */
+/* ── EmailJS ── */
 emailjs.init("c1RQoQIRZJT11eDc3");
 
 document.getElementById("contactForm").addEventListener("submit", function(e) {
@@ -22,7 +22,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     });
 });
 
-/*Carousel */
+/* ── Carousel ── */
 (function () {
   var wrap  = document.getElementById('carouselWrap');
   var track = document.getElementById('carouselTrack');
