@@ -187,7 +187,13 @@ section {
 #contact .social-btn:hover svg {
   stroke: #fff;
 }
-
+#contact .social-btn.insta-dot {
+  background: #6b7280;
+  transition: fill 0.22s ease;
+}
+#contact .social-btn:hover .insta-dot {
+  fill: #fff;
+}
 
 #contact .form_card {
   border: 1.5px solid #e5e9f0;
